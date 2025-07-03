@@ -1,2 +1,2 @@
-# loop-learn
+# lalear
 Ai DApp for the ICP blockchain
