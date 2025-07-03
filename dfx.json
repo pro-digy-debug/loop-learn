@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "loop-learn-backend": {
+      "main": "src/loop-learn-backend/main.mo",
+      "type": "motoko"
+    },
+    "loop-learn-frontend": {
+      "dependencies": [
+        "loop-learn-backend"
+      ],
+      "source": [
+        "src/loop-learn-frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "loop-learn-frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
